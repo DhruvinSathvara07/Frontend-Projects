@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEADER START */
+.container {
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid; */
+    display: flex;
+}
+
+.name {
+    width: 40%;
+    height: 60px;
+    /* border: 2px solid red; */
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.nav {
+    width: 60%;
+    height: 60px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+}
+
+.nav ul li a {
+    color: black;
+    font-size: medium;
+    text-decoration: none !important;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+.container-fluid {
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid; */
+
+    & h1 {
+        font-size: 30px;
+        font-family: "Carattere", cursive;
+        font-weight: 500;
+        padding-top: 100px;
+    }
+
+    & p {
+        font-family: "Carattere", cursive;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 5px 0 0 0;
+    }
+}
+
+.main {
+    width: 100%;
+    height: 250px;
+    /* border: 2px solid; */
+    display: flex;
+    padding-top: 40px;
+}
+
+.projects,
+.education,
+.Skills {
+    width: 30.33%;
+    height: 250px;
+    /* border: 2px solid red; */
+
+    & h3 {
+        font-family: "Carattere", cursive;
+    }
+
+    & li {
+        font-family: "Poppins", serif;
+    }
+}
+
+.project {
+    width: 100%
+}
+
+.project h1,
+.contact h1 {
+    font-family: "Carattere", cursive;
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0 0 0;
+}
+
+.project ul {
+    padding: 60px 0 0 250px;
+    font-family: "Poppins", serif;
+}
+
+.projects ul,
+.education ul,
+.Skills ul {
+    list-style-type: disc;
+    padding: 15px 0 0 50px;
+}
+
+.contact_us {
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid; */
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.articles {
+    text-align: center;
+    margin: 40px 0 0 0;
+
+    & h1,
+    & h2 {
+        font-family: "Carattere", cursive;
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    & ul {
+        margin-top: 30px;
+    }
+
+    & p {
+        font-family: "Poppins", serif;
+    }
+}
+
+/* MAIN END  */
+
+/* FOOTER START */
+.copyright {
+    font-family: "Carattere", cursive;
+    padding: 50px 0 0 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.copy {
+    font-family: "Carattere", cursive;
+    font-size: 20px;
+}
+
+/* FOOTER END */
