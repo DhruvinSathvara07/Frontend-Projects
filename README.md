@@ -7,3 +7,7 @@
 # Personal Protfolio
 
 [https://roadmap.sh/projects/portfolio-website](https://roadmap.sh/projects/portfolio-website)
+
+# Changelog
+
+[https://roadmap.sh/projects/changelog-component](https://roadmap.sh/projects/changelog-component)

@@ -1,0 +1,86 @@
+body {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+    /* border: 2px solid; */
+}
+
+.container {
+    max-width: 700px;
+    /* border: 2px solid; */
+    text-align: center;
+    color: #000000;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1em;
+    color: #aaa;
+    margin-bottom: 40px
+}
+
+.list {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    background-color: #000000;
+    transform: translateX(-50%);
+}
+
+.list_item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.list_item :last-child {
+    margin-bottom: 0;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #aaa;
+    text-align: right;
+    padding-right: 20px;
+    width: 45%;
+    /* border: 2px solid; */
+}
+
+.dot {
+    width: 16px;
+    height: 16px;
+    background-color: #000000;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    margin: 0 -8px 0 -8px;
+}
+
+.para {
+    font-size: 1em;
+    color: #000000;
+    width: 45%;
+    text-align: left;
+    padding-left: 20px;
+}
