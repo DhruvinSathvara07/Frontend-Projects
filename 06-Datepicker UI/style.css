@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    ::selection {
+        user-select: none;
+    }
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cdeeff;
+}
+
+.container input {
+    width: 150px;
+    height: 45px;
+    border: 2px solid #00A8CC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
