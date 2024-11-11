@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #ebecf0;
 }
 
@@ -15,12 +18,12 @@ div {
 
 .sign_up {
     padding: 32px 0;
-    text-align: center;
 }
 
 .sign_up h1 {
     font-size: 50px;
     color: #babecc;
+    text-align: center;
 }
 
 label {
@@ -30,7 +33,9 @@ label {
 }
 
 input,
-button {
+.login,
+.unit {
+    width: 280px;
     padding: 16px;
     border-radius: 320px;
     font-size: 16px;
@@ -46,8 +51,9 @@ input:focus {
     box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 
-button {
-    width: 220px;
+.login,
+.unit {
+    width: 310px;
     height: 48px;
     font-weight: bold;
     box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
@@ -56,15 +62,39 @@ button {
     color: #ae1100;
 }
 
-button i {
+.login i {
     margin-right: 8px;
 }
 
-button:hover {
+.login:hover {
     box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
 }
 
-button:active {
+.login:active {
     box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
 
+button .icon {
+    margin-right: 8px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 0 0px;
+    /* border: 2px solid; */
+}
+
+.unit {
+    width: 55px;
+    height: 55px;
+    border: 0;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    font-size: 19px;
+    border-radius: 8px;
+    line-height: 0px;
 }
