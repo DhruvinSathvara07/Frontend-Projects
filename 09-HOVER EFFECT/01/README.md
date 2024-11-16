@@ -4,6 +4,7 @@
 
 - You do the customize in the .content class 
 - Animation start top write this code
+
 .content {
 
     width: 100%;
@@ -16,11 +17,14 @@
     padding: 40px;
     transition: all 0.5s ease-in-out;
 }
+
 .container:hover .content {
 
     top: 0;
 }
+
 - Animation start right side write this code
+
 .content {
 
     width: 100%;
@@ -33,12 +37,14 @@
     padding: 40px;
     transition: all 0.5s ease-in-out;
 }
+
 .container:hover .content {
 
     right: 0;
 }
 
 - Animation start a bottom write this code
+
 .content {
 
     width: 100%;
