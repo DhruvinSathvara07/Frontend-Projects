@@ -31,10 +31,8 @@ h1 {
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
     position: absolute;
-    /* top: 0%; */
-    left: 0%;
-    bottom: -100%;
-    /* right: -100%; */
+    top: 0%;
+    left: -100%;
     padding: 40px;
     transition: all 0.5s ease-in-out;
 }
@@ -49,5 +47,5 @@ h1 {
 }
 
 .container:hover .content {
-    bottom: 0;
+    left: 0;
 }
