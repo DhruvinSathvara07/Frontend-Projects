@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    width: 350px;
+    /* height: 700px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(200 100% 80%);
+    transform: scaleX(0);
+    z-index: -1;
+    transition: all 0.3s ease;
+    transform-origin: left;
+    /* transform-origin: right; */
+
+    /* This is by default */
+
+    /* transform-origin: bottom; */
+    /* transform-origin: top; */
+}
+
+h1:hover::before {
+    transform: scaleX(1);
+}
