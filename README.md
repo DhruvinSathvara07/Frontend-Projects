@@ -1,7 +1,7 @@
 # Front-end Projects from Roadmap.sh
 
 This Repository built Front-end Projects following the https://roadmap.sh/ Front-end Developer Path
-
+<!-- 
 # Projects Lists
 
 1) [Single Page CV](https://roadmap.sh/projects/basic-html-website),10) [Cookie Consent](https://roadmap.sh/projects/cookie-consent)
@@ -20,4 +20,4 @@ This Repository built Front-end Projects following the https://roadmap.sh/ Front
 
 8) [Tooltip UI](https://roadmap.sh/projects/tooltip-ui), 17) [Temperature Converter](https://roadmap.sh/projects/temperature-converter)
 
-9) [Simple Tabs](https://roadmap.sh/projects/simple-tabs), 18) [Age Calculator](https://roadmap.sh/projects/age-calculator)
+9) [Simple Tabs](https://roadmap.sh/projects/simple-tabs), 18) [Age Calculator](https://roadmap.sh/projects/age-calculator) -->
