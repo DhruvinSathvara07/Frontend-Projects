@@ -1,13 +1,13 @@
 const form = document.querySelector("form");
 const body = document.querySelector(".tbody");
 const input = form.childNodes[3]
-const textarea = form.childNodes[7]
+const task = form.childNodes[7]
 
 form.addEventListener("submit", function (e) {
     e.preventDefault();
     const data = {
         name: input.value,
-        text: textarea.value
+        text: task.value
     }
 
     const users = JSON.parse(localStorage.getItem("data")) || []
@@ -24,11 +24,12 @@ function show() {
     users.forEach((items, index) => {
         result += `
         <tr class='table-row'>
+            <td>${index + 1}</td>
             <td>${items.name}</td>
             <td>${items.text}</td>
             <td>
-                <button class="btn btn-primary" onclick='handleEdit(${index})'>Edit</button>
-                <button class="btn btn-danger delete" onclick='remove(${index})'>Delete</button>
+                <button class="" type="button" onclick='handleEdit(${index})'><i class="fa-solid fa-pen"></i></button>
+                <button class="delete" type="button" onclick='remove(${index})'><i class="fa-solid fa-trash"></i></button>
             </td>
         </tr>`;
     });
@@ -46,17 +47,17 @@ function handleEdit(id) {
 
     const todo = {
         name: input.value,
-        text: textarea.value
+        text: task.value
     };
 
     input.value = detils[id].name
-    textarea.value = detils[id].text
+    task.value = detils[id].text
 
     update.addEventListener("click", function (e) {
         e.preventDefault();
         const data = {
             name: input.value,
-            text: textarea.value
+            text: task.value
         };
 
         const datalist = JSON.parse(localStorage.getItem("data"))
