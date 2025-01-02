@@ -17,20 +17,29 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css file -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- animation cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-    <div class="container mt-5 pt-5 w-50">
+    <div class="container mt-5 pt-5 w-50" data-aos="zoom-in" data-aos-duration="1800" data-aos-easing="ease-in-out">
         <form>
-            <label for="exampleFormControlInput1" class="form-label name fw-bolder fs-5">Name</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" required placeholder="Enter Name">
-            <label for="exampleFormControlTextarea1" class="form-label fw-bolder fs-5">Tasks</label>
-            <input type="text" class="form-control" id="exampleFormControl1" required placeholder="Enter Tasks"></input>
-            <button class="mt-4 submit" type="submit">Submit</button>
-            <button class="mt-4 update" type="submit">Update</button>
+            <label for="exampleFormControlInput1" class="form-label name fw-bolder fs-5" data-aos="fade-right"
+                data-aos-duration="1200" data-aos-easing="ease-in-out">Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" required placeholder="Enter Name"
+                data-aos="zoom-in" data-aos-duration="1000">
+
+            <label for="exampleFormControlTextarea1" class="form-label fw-bolder fs-5" data-aos="fade-left"
+                data-aos-duration="1200" data-aos-easing="ease-in-out">Tasks</label>
+            <input type="text" class="form-control" id="exampleFormControl1" required placeholder="Enter Tasks"
+                data-aos="zoom-in" data-aos-duration="1000">
+            <button class="mt-4 submit" type="submit" data-aos="flip-up" data-aos-duration="800">Submit</button>
+            <button class="mt-4 update" type="submit" data-aos="flip-down" data-aos-duration="800">Update</button>
+
         </form>
-        <table class="table table-hovered table-success mt-5">
-            <thead class="table-light">
+        <table class="table table-hovered table-success mt-5" data-aos="fade-up" data-aos-duration="1500">
+            <thead class="table-light" data-aos="slide-down" data-aos-duration="1000">
                 <tr>
                     <th>No.</th>
                     <th>Name</th>
@@ -39,12 +48,19 @@
                 </tr>
             </thead>
             <tbody id="tbody">
-
             </tbody>
         </table>
+
     </div>
 
+    <!-- js files -->
     <script src="script.js"></script>
+
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

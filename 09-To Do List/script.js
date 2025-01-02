@@ -68,7 +68,6 @@ function handleEdit(id) {
     })
 }
 
-
 function remove(id) {
     const data = JSON.parse(localStorage.getItem("data")) || [];
     data.splice(id, 1);
