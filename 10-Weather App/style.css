@@ -1,0 +1,87 @@
+#img-fluid {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220313/pngtree-blue-sky-and-white-clouds-in-sunny-weather-in-summer-image_1008803.jpg); */
+    /* background: linear-gradient(#F8FAFC, red); */
+    background-color: #96C9F4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* border: 2px solid !important; */
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+}
+
+.weather_header {
+    width: 500px;
+    height: 240px;
+    background-color: #B7E0FF;
+    backdrop-filter: blur(50px);
+}
+
+.input {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 22px 22px 22px 22px !important;
+}
+
+#btn {
+    width: 110px;
+    height: 55px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.weather {
+    padding: 50px 50px 50px 50px;
+}
+
+.cardContainer {
+    width: fit-content;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(30px) !important;
+    background-color: rgba(0, 0, 0, 0.053) !important;
+    border: 1px solid rgba(255, 255, 255, 0.089);
+    cursor: pointer;
+}
+
+.city {
+    font-weight: 700;
+    font-size: 1.3em;
+    letter-spacing: 1.2px;
+    color: white !important;
+}
+
+.weather {
+    font-weight: 500;
+    font-size: 0.7em;
+    letter-spacing: 1.2px;
+    color: rgb(197, 197, 197) !important;
+}
+
+.temp {
+    font-size: 1.8em;
+    color: white !important;
+}
