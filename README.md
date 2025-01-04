@@ -4,7 +4,7 @@ This Repository built Front-end Projects following the https://roadmap.sh/ Front
 
 # Projects Lists
 
-1) [Single Page CV](https://roadmap.sh/projects/basic-html-website),10) [Cookie Consent](https://roadmap.sh/projects/cookie-consent)
+1) [Single Page CV](https://roadmap.sh/projects/basic-html-website),10)[Weather App](https://roadmap.sh/projects/weather-app)
 
 2) [Personal Protfolio](https://roadmap.sh/projects/portfolio-website), 11) [Restricted Textarea](https://roadmap.sh/projects/restricted-textarea)
 
